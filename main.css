@@ -1,0 +1,172 @@
+body{
+  background-image: url(/images/hearts.jpg);
+}
+
+h1{
+  color: pink;
+  height: 100px;
+  text-align: center;
+  margin: 0;
+  text-shadow: 1px 1px 6px rgb(69, 0, 133), -1px -1px 6px rgb(69, 0, 133);
+  font-family: love;
+  font-size: 90px;
+  font-weight: normal;
+}
+img.birbyfly{
+  width: 70px;
+  height: 70px;
+  padding: 0;
+  margin: 0;
+}
+
+.counter{
+  margin-top: 0;
+  border: 4px black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 100px;
+}
+.days{
+  padding-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:pink;
+  font-size: 50px;
+  text-shadow: 1px 1px 6px rgb(69, 0, 133), -1px -1px 6px rgb(69, 0, 133);
+}
+
+h3{
+  color: pink;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 5px;;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 6px rgb(69, 0, 133), -1px -1px 6px rgb(69, 0, 133);
+}
+
+p{
+  text-align: center;
+  padding: 0;
+  margin: 5px;
+}
+
+.love{
+  margin: 0;
+  padding-bottom: 10px;
+}
+.mygirl{
+  margin-top: 0;
+}
+#forme{
+  color:pink;
+  text-shadow: 1px 1px 6px rgb(69, 0, 133), -1px -1px 6px rgb(69, 0, 133);
+}
+
+li{
+  padding: 3px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  box-shadow: 1px 1px 6px rgb(69, 0 ,133);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: rgb(255, 212, 219);
+  width: 500px;
+  border-radius: 70px;
+  border:  4px solid black;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: rgb(69, 0, 133);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(69, 0, 133);
+  color: pink;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  border: solid;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: rgb(69, 0, 133);
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+#together1, #together2, #together3, #together4, #together5, #together6, #together7, #together8, #together9{
+  width: 150px;
+  height: 150px;
+}
+
+#together1{
+  border-top-left-radius: 50px;
+}
+#together3{
+  border-top-right-radius: 50px;
+}
+#together7{
+  border-bottom-left-radius: 50px;
+}
+#together9{
+  border-bottom-right-radius: 50px;
+}
+footer{
+  color:pink;
+  text-shadow: 1px 1px 6px rgb(69, 0, 133), -1px -1px 6px rgb(69, 0, 133);
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
